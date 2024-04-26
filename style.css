@@ -1,0 +1,76 @@
+/** 
+
+  
+  
+  
+  
+   
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+  }*/
+
+  body {
+    background-color: whitesmoke;
+    color: #111111;
+    font-size: 16px;
+    
+  }
+  .calc{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+
+  }
+  #display{
+    text-align: right;
+    width: 80%;
+    height: 60px;
+    border: 2px solid black;
+    margin: 20px 20px auto;
+    background-color: #5b715d;
+    font-size: 36px;   
+    color: ghostwhite;
+    }
+    .infoDisplay {
+    padding: 0 10px;
+    }
+
+    .container_teclado{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      flex-flow: column;
+      border: 2px solid rgb(80, 23, 23);
+    border-radius: 20px;
+    width: 40%;
+  }
+
+  .teclado{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    
+    
+}
+.tecla{
+    background-color: #fff;
+    border: 1px solid #be5c5c;
+    padding: 20px 32px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tecla:hover {
+  background-color: rgb(185, 183, 183);
+}
+
+.tecla:active {
+  background-color: rgba(214, 10, 10, 0.527);
+}
+
+  
